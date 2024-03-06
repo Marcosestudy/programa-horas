@@ -1,11 +1,38 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@font-face {
+  font-family:'marquerite';
+  src: url('marguerite.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+
+
+  --font1:'Sriracha', cursiva;
+  --font2:"Cedarville Cursive", cursivo;
+  --font3:'marquerite', Times, serif;
+}
+
+
+
 
 body {
   background: rgb(70, 142, 236);
   font: normal 15pt arial;
    min-height: auto;
    max-width: auto;
+   /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+   font-weight: bolder;
+   font-family: 'Times New Roman', Times, serif;
+  
+   
+   
  
 
   

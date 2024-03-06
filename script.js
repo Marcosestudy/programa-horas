@@ -3,24 +3,33 @@
 function carregar(){
  var fcor = document.getElementById("fcor")
  const  hcor = document.querySelector('h1#hcor')
+ const mensagem = document.querySelector('div.mensagem')
+ const fonte = document.getElementById('fonte')
 
   
   var msg = document.getElementById("msg");
   var img = document.getElementById("imagem");
   var data = new Date()
   var hora = data.getHours()
-  //var hora = 13
+  //var hora = 15
   
-  msg.innerHTML = ` Agora são ${hora} horas`
+  msg.innerHTML = ` Agora são ${hora} horas `;
+  //msg.innerHTML = 'te amo'
 
   if(hora >= 0  && hora < 12){
     img.src = "imagem/cedo.png";
     document.body.style.background = "#fbfaac";
     document.getElementById("fcor").style.color = "#000000";
     hcor.style.color = "#000000"
+    mensagem.innerHTML = "Bom dia, minha princesa. Você é a razão pela qual me levanto mais feliz a cada manhã! 💘"
+    fonte.style.fontFamily = "var(--font3)";
+    fonte.style.lineHeight = '30px'
+   
+    
+    
      
 
-    //Bom Dia
+    
 
 }else if(hora >= 12 && hora <= 18){
     img.src = 'imagem/tarde.png'
@@ -28,6 +37,9 @@ function carregar(){
     //document.getElementById("fcor").style.color = "#000000";
     fcor.style.color = "#000000";
     hcor.style.color = "#000000";
+    mensagem.innerHTML = "Uma tarde cheia de tudo que lhe faz bem. Que as alegrias transbordam em seu coração e preencham sua vida de momentos incríveis. Que haja luz divina em seus caminhos e pensamentos, E que Deus lhe abencoe sempre e lhe dê muita sabedoria"
+    fonte.style.fontFamily = "var(--font2)"
+    fonte.style.fontSize = "1em"
     
 
  
@@ -36,6 +48,14 @@ function carregar(){
 }else{
     img.src = 'imagem/noite.png'
     document.body.style.background = "#22363D";
+     mensagem.innerHTML =
+     "Boa Noite, Minha Lindeza!<br><br>Maravilhoso mesmo é amanhecer cheio da presença de Deus, pois sabemos que muitas lutas iremos enfrentar neste dia, mas, o nosso Deus nos fará vencer tudo na vida!";
+     //document.getElementById("fonte").style.fontFamily ="var(--font1)";
+     fonte.style.fontFamily = "var(--font1)";
+
+
+
+      
     
     //boa noite
 }
