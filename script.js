@@ -9,21 +9,27 @@ function carregar(){
   
   var msg = document.getElementById("msg");
   var img = document.getElementById("imagem");
-  var data = new Date()
-  var hora = data.getHours()
-  //var hora = 15
+  //var data = new Date()
+ // var hora = data.getHours()
+  //const minutos = data.getMinutes()
+  //const segundos = data.getSeconds()
+  //const horas = [hora, minutos, segundos].join(":")
+  var hora = 15
   
-  msg.innerHTML = ` Agora são ${hora} horas `;
+  msg.innerHTML = ` Agora são ${hora} `;
   //msg.innerHTML = 'te amo'
 
   if(hora >= 0  && hora < 12){
-    img.src = "imagem/cedo.png";
-    document.body.style.background = "#fbfaac";
-    document.getElementById("fcor").style.color = "#000000";
-    hcor.style.color = "#000000"
-    mensagem.innerHTML = "Bom dia, minha princesa. Você é a razão pela qual me levanto mais feliz a cada manhã! 💘"
+    img.src = "imagem/minhafoto.png";
+    document.body.style.background = "#040f13";
+    document.getElementById("fcor").style.color = "#FFFFFF";
+    hcor.style.color = "#FFFFFF";
+    mensagem.innerHTML = "Bom dia, minha princesa.  Você, minha incrível mulher, é uma verdadeira maravilha, uma força que inspira e ilumina meus dias. Diante dos desafios, lembre-se do poder que há dentro de você. Você é capaz de superar qualquer obstáculo, e eu estarei ao seu lado, apoiando e celebrando cada vitória. Vamos juntos vencer essa guerra e construir um futuro ainda mais brilhante. Você é extraordinária, e eu acredito no seu potencial. Avante, minha guerreira!  💘"
+    
     fonte.style.fontFamily = "var(--font3)";
     fonte.style.lineHeight = '30px'
+    fonte.style.fontSize = "11pt";
+    fonte.style.textAlign ='justify,center'
    
     
     
@@ -32,26 +38,28 @@ function carregar(){
     
 
 }else if(hora >= 12 && hora <= 18){
-    img.src = 'imagem/tarde.png'
-    document.body.style.background = "#F5e388";
+    img.src = 'imagem/nois-dois.png'
+    document.body.style.background = "#a1b173";
     //document.getElementById("fcor").style.color = "#000000";
     fcor.style.color = "#000000";
     hcor.style.color = "#000000";
-    mensagem.innerHTML = "Uma tarde cheia de tudo que lhe faz bem. Que as alegrias transbordam em seu coração e preencham sua vida de momentos incríveis. Que haja luz divina em seus caminhos e pensamentos, E que Deus lhe abencoe sempre e lhe dê muita sabedoria"
+    mensagem.innerHTML = "Meu amorzinho, em cada desafio, vejo a força radiante que há em você. Que a tarde seja permeada por esse otimismo que ilumina nossa jornada, trazendo paz, alegrias e conquistas. Tenha uma boa tarde, repleta de realizações e sorrisos. Você é a luz que faz meus dias mais brilhantes."
     fonte.style.fontFamily = "var(--font2)"
     fonte.style.fontSize = "1em"
+    fonte.style.textAlign = "justify, center";
     
 
  
   
     //Boa tarde
 }else{
-    img.src = 'imagem/noite.png'
-    document.body.style.background = "#22363D";
+    img.src = 'imagem/principal.png'
+    document.body.style.background = "#5d5a33";
      mensagem.innerHTML =
-     "Boa Noite, Minha Lindeza!<br><br>Maravilhoso mesmo é amanhecer cheio da presença de Deus, pois sabemos que muitas lutas iremos enfrentar neste dia, mas, o nosso Deus nos fará vencer tudo na vida!";
+       "   Boa Noite, Minha Lindeza!<br>Meu amor, ao final deste dia vencido, celebro cada momento compartilhado contigo, desde a luz suave da manhã até o entardecer dourado. Que a noite seja aconchegante como o crepúsculo, trazendo sonhos doces e a certeza de um novo amanhecer. Boa noite, minha razão de ser.!";
      //document.getElementById("fonte").style.fontFamily ="var(--font1)";
      fonte.style.fontFamily = "var(--font1)";
+     fonte.style.textAlign = "justify, center";
 
 
 
