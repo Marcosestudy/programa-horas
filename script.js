@@ -9,14 +9,14 @@ function carregar(){
   
   var msg = document.getElementById("msg");
   var img = document.getElementById("imagem");
-  //var data = new Date()
- // var hora = data.getHours()
-  //const minutos = data.getMinutes()
-  //const segundos = data.getSeconds()
-  //const horas = [hora, minutos, segundos].join(":")
-  var hora = 15
+  var data = new Date()
+  var hora = data.getHours()
+  const minutos = data.getMinutes()
+  const segundos = data.getSeconds()
+  const horas = [hora, minutos, segundos].join(":")
+  //var hora = 15
   
-  msg.innerHTML = ` Agora são ${hora} `;
+  msg.innerHTML = ` Agora são ${horas} `;
   //msg.innerHTML = 'te amo'
 
   if(hora >= 0  && hora < 12){
