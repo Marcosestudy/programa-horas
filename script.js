@@ -56,7 +56,7 @@ function carregar(){
     img.src = 'imagem/principal.png'
     document.body.style.background = "#5d5a33";
      mensagem.innerHTML =
-       "   Boa Noite, Minha Lindeza!<br>Meu amor, ao final deste dia vencido, celebro cada momento compartilhado contigo, desde a luz suave da manhã até o entardecer dourado. Que a noite seja aconchegante como o crepúsculo, trazendo sonhos doces e a certeza de um novo amanhecer. Boa noite, minha razão de ser.!";
+       "   Boa Noite, Meu bem!<br>Meu amor, ao final deste dia vencido, celebro cada momento compartilhado contigo, desde a luz suave da manhã até o entardecer dourado. Que a noite seja aconchegante como o crepúsculo, trazendo sonhos doces e a certeza de um novo amanhecer. Boa noite, minha razão de ser.!";
      //document.getElementById("fonte").style.fontFamily ="var(--font1)";
      fonte.style.fontFamily = "var(--font1)";
      fonte.style.textAlign = "justify, center";
