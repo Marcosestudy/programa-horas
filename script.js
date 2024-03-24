@@ -16,7 +16,7 @@ function carregar(){
   const horas = [hora, minutos, segundos].join(":") */
   var hora = 15
   
-  msg.innerHTML = ` Agora são ${horas} `;
+  msg.innerHTML = ` Agora são ${hora} `;
   //msg.innerHTML = 'te amo'
 
   if(hora >= 0  && hora < 12){
