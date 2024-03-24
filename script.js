@@ -14,7 +14,7 @@ function carregar(){
   const minutos = data.getMinutes()
   const segundos = data.getSeconds()
   const horas = [hora, minutos, segundos].join(":") */
-  var hora = 10
+ // var hora = 10
   
   msg.innerHTML = ` Agora são ${hora} `;
   //msg.innerHTML = 'te amo'
@@ -24,7 +24,7 @@ function carregar(){
     document.body.style.background = "#040f13";
     document.getElementById("fcor").style.color = "#FFFFFF";
     hcor.style.color = "#FFFFFF";
-    mensagem.innerHTML = "Bom dia, minha princesa.  Você, minha incrível mulher, é uma verdadeira maravilha, uma força que inspira e ilumina meus dias. Diante dos desafios, lembre-se do poder que há dentro de você. Você é capaz de superar qualquer obstáculo, e eu estarei ao seu lado, apoiando e celebrando cada vitória. Vamos juntos vencer essa guerra e construir um futuro ainda mais brilhante. Você é extraordinária, e eu acredito no seu potencial. Avante, minha guerreira!  💘"
+    mensagem.innerHTML = "Bom dia, minha princesa.  Você, minha incrível mulher, é uma verdadeira maravilha, uma força que inspira e ilumina meus dias. Diante dos desafios, lembre-se do poder que há dentro de você (de Deus). Você é capaz de superar qualquer obstáculo, e eu estarei ao seu lado, apoiando e celebrando cada vitória. Vamos juntos vencer essa guerra e construir um futuro ainda mais brilhante. Você é extraordinária, e eu acredito no seu potencial. Avante, minha guerreira!  💘"
     
     fonte.style.fontFamily = "var(--font3)";
     fonte.style.lineHeight = '30px'
