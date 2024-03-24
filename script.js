@@ -13,7 +13,7 @@ function carregar(){
   var hora = data.getHours()
   const minutos = data.getMinutes()
   const segundos = data.getSeconds()
-  const horas = [hora, minutos, segundos].join(":") */
+  const horas = [hora, minutos, segundos].join(":") 
  // var hora = 10
   
   msg.innerHTML = ` Agora são ${horas} `;
