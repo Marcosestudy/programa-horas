@@ -14,7 +14,7 @@ function carregar(){
   const minutos = data.getMinutes()
   const segundos = data.getSeconds()
   const horas = [hora, minutos, segundos].join(":") */
-  var hora = 15
+  var hora = 10
   
   msg.innerHTML = ` Agora são ${hora} `;
   //msg.innerHTML = 'te amo'
